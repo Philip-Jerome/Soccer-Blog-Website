@@ -1,0 +1,28 @@
+
+.bg-image {
+    background: linear-gradient(to right, rgba(50, 70, 80, 0.7), rgba(30, 20, 150, 0.7)), url("../img/ronaldo-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .bg-image {
+        background: linear-gradient(to right, rgba(50, 70, 80, 0.7), rgba(30, 20, 150, 0.7)), url("../img/kai-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        min-height: 100vh;
+    }
+}
+
+.card-1 {
+    background-image: url("../img/kai-bg.jpg");
+}
+
+
+form {
+    padding-top: 70px;
+    width: 60%;
+}
